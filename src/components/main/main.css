@@ -1,0 +1,96 @@
+
+.main {
+
+text-align: center;
+box-sizing: border-box;
+font-family: 'Patua One', cursive;
+font-size: 20px;
+padding-top: 3vh;
+
+}
+
+.main>button{
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+     
+}
+.currentCityDiv{
+    /* border: 1px solid black; */
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.24), 0 6px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+
+.currentCityDiv>.favoritesButtons{
+    position: absolute;
+    right: 5vh;
+    top:5vh;
+    
+}
+
+.dayforecast{
+    border: 1px solid black;
+    display: inline-block;
+    width: 20%;
+    height: 30vh;
+}
+.weatherText{
+    margin-top: 13vh;
+    margin-bottom: 6vh;
+}
+.weatherText>h1{
+    font-size: 55px;
+}
+.weatherText>h3{
+    margin-bottom: -5px;
+}
+.card{
+    min-width: 150px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 4px 7px 0 rgba(0,0,0,0.19);
+}
+.card:hover{
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 15px 0 rgba(0,0,0,0.19);
+    transition: 0.4.5s;
+}
+
+.card-body{
+    background-image: url(../../assets/4.jpg);
+    background-size: cover;
+}
+
+.main>#searchArea{
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5vh;
+}
+#searchInput{
+    display: inline-block;
+    margin-right: 2px;
+}
+#searchButton{
+    display: inline-block;
+}
+
+.topLeftArea{
+    display: inline-block;
+    position: absolute;
+    left: 5vh;
+    top:5vh;
+}
+#currentWeatherIcon{
+    display: inline-block;
+    position: absolute;
+    left:-20px;
+}
+.nameAndTemp{
+    margin-left: 55px;
+}
+@media (max-width: 990px){
+    .card{
+        margin-top: 1.5vh;
+    }
+}

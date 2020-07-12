@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+.menu>Button {
+    width: 60px;
+    font-size: small;
+    margin: 4px;
+    padding : 4px;    
+    transition: 0.4s;
+    /* Round corners button */
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    outline: none;
+    display: inline-block;
+    /* position: absolute; */
+    right: 10px;
+    top: 10px;
+    opacity: 0.8;
+}
+
